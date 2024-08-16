@@ -1,4 +1,4 @@
-# openai-cost-calculator-updated
+# openai-token-cost-calculator-updated
 ## Forked from  [openai-cost-calculator](https://github.com/codergautam/openai-cost-calculator)
 
 `openai-cost-calculator` is a reliable npm module that provides cost calculations for various AI models offered by OpenAI. Pricing is maintained regularly to stay on top of OpenAI's pricing changes. Whether you need to calculate costs for OpenAI Language Models, Fine Tuning Models, Embedding Models, Image Models, or Audio Models, this module has got you covered.
@@ -7,12 +7,12 @@
 
 **Using npm:**
 ```
-npm install openai-cost-calculator-updated
+npm install openai-token-cost-calculator-updated
 ```
 
 **Using yarn:**
 ```
-yarn add openai-cost-calculator-updated
+yarn add openai-token-cost-calculator-updated
 ```
 
 ## Importing
