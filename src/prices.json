@@ -1,95 +1,139 @@
 {
   "LanguageModels": {
-        "gpt-4": {
-            "Input": 0.03,
-            "Output": 0.06
-        },
-        "gpt-4-0314": {
-            "Input": 0.03,
-            "Output": 0.06
-        },
-        "gpt-4-0613": {
-            "Input": 0.03,
-            "Output": 0.06
-        },
-        "gpt-3.5-turbo": {
-            "Input": 0.001125,
-            "Output": 0.002
-        },
-        "gpt-3.5-turbo-16k": {
-            "Input": 0.003,
-            "Output": 0.004
-        },
-        "gpt-3.5-turbo-16k-0613": {
-            "Input": 0.003,
-            "Output": 0.004
-        },
-        "gpt-3.5-turbo-0301": {
-            "Input": 0.003,
-            "Output": 0.004
-        },
-        "gpt-3.5-turbo-0613": {
-            "Input": 0.003,
-            "Output": 0.004
-        },
-        "text-ada-001": {
-                "Input": 0.0004,
-                "Output": 0.0004
-        },
-        "text-babbage-001": {
-                "Input": 0.0005,
-                "Output": 0.0005
-        },
-        "text-curie-001": {
-                "Input": 0.002,
-                "Output": 0.002
-        },
-        "text-davinci-001": {
-                "Input": 0.02,
-                "Output": 0.02
-        },
-        "text-davinci-002": {
-                "Input": 0.02,
-                "Output": 0.02
-        },
-        "text-davinci-003": {
-                "Input": 0.02,
-                "Output": 0.02
-        }
+    "gpt-4o-mini-2024-07-18": {
+      "Input": 0.000150,
+      "Output": 0.000600
+    },
+    "gpt-4o-mini": {
+      "Input": 0.000150,
+      "Output": 0.000600
+    },
+    "gpt-4o-2024-05-13": {
+      "Input": 0.00500,
+      "Output": 0.01500
+    },
+    "gpt-4o-2024-08-06": {
+      "Input": 0.00250,
+      "Output": 0.01000
+    },
+    "gpt-4o": {
+      "Input": 0.00500,
+      "Output": 0.01500
+    },
+    "chatgpt-4o-latest": {
+      "Input": 0.0050,
+      "Output": 0.0150
+    },
+    "gpt-4-turbo": {
+      "Input": 0.0100,
+      "Output": 0.0300
+    },
+    "gpt-4-turbo-2024-04-09": {
+      "Input": 0.0100,
+      "Output": 0.0300
+    },
+    "gpt-4": {
+      "Input": 0.0300,
+      "Output": 0.0600
+    },
+    "gpt-4-32k": {
+      "Input": 0.0600,
+      "Output": 0.1200
+    },
+    "gpt-4-0125-preview": {
+      "Input": 0.0100,
+      "Output": 0.0300
+    },
+    "gpt-4-1106-preview": {
+      "Input": 0.0100,
+      "Output": 0.0300
+    },
+    "gpt-4-vision-preview": {
+      "Input": 0.0100,
+      "Output": 0.0300
+    },
+    "gpt-3.5-turbo-0125": {
+      "Input": 0.0005,
+      "Output": 0.0015
+    },
+    "gpt-3.5-turbo-instruct": {
+      "Input": 0.0015,
+      "Output": 0.0020
+    },
+    "gpt-3.5-turbo-1106": {
+      "Input": 0.0010,
+      "Output": 0.0020
+    },
+    "gpt-3.5-turbo-0613": {
+      "Input": 0.0015,
+      "Output": 0.0020
+    },
+    "gpt-3.5-turbo-16k-0613": {
+      "Input": 0.0030,
+      "Output": 0.0040
+    },
+    "gpt-3.5-turbo-0301": {
+      "Input": 0.0015,
+      "Output": 0.0020
+    },
+    "davinci-002": {
+      "Input": 0.002,
+      "Output": 0.002
+    },
+    "babbage-002": {
+      "Input": 0.0004,
+      "Output": 0.0004
+    }
   },
   "FineTuningModels": {
-      "ada": {
-          "Training": 0.0004,
-          "Usage": 0.0016
-      },
-      "babbage": {
-          "Training": 0.0006,
-          "Usage": 0.0024
-      },
-      "curie": {
-          "Training": 0.003,
-          "Usage": 0.012
-      },
-      "davinci": {
-          "Training": 0.03,
-          "Usage": 0.12
-      }
+    "gpt-4o-mini-2024-07-18": {
+      "Training": 0.00030,
+      "Input": 0.00030,
+      "Output": 0.00030
+    },
+    "gpt-3.5-turbo": {
+      "Training": 0.00800,
+      "Input": 0.00300,
+      "Output": 0.00600
+    },
+    "davinci-002": {
+      "Training": 0.00600,
+      "Input": 0.01200,
+      "Output": 0.01200
+    },
+    "babbage-002": {
+      "Training": 0.00040,
+      "Input": 0.00160,
+      "Output": 0.00160
+    }
   },
   "EmbeddingModels": {
-      "ada": {
-          "Usage": 0.0001
-      }
+    "ada v2": {
+      "Usage": 0.000100
+    },
+    "text-embedding-3-large": {
+      "Usage": 0.000130
+    },
+    "text-embedding-3-small": {
+      "Usage": 0.000020
+    }
   },
   "ImageModels": {
-      "Resolution": {
-          "1024x1024": 0.02,
-          "512x512": 0.018,
-          "256x256": 0.016
-      }
+    "Resolution": {
+      "1024x1024": 0.02,
+      "512x512": 0.018,
+      "256x256": 0.016
+    }
   },
   "AudioModels": {
-      "whisper-1": {
-          "Usage": 0.006
-      }
+    "Whisper": {
+      "Usage": 0.000006
+    },
+    "TTS": {
+      "Usage": 0.015000
+    },
+    "TTS HD": {
+      "Usage": 0.030000
+    }
   }
 }
