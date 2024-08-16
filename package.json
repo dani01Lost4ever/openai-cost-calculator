@@ -1,16 +1,16 @@
 {
-  "name": "openai-cost-calculator",
+  "name": "openai-token-cost-calculator-updated",
   "version": "1.0.1",
   "description": "Easily calculate the cost of your OpenAI Usage",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "daniel.busetto.db@gmail.com",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codergautam/openai-cost-calculator"
+    "url": "git+https://github.com/codergautam/openai-cost-calculator.git"
   },
   "keywords": [
     "openai",
@@ -34,5 +34,9 @@
     "openai gpt-3.5-turbo",
     "openai price tracker",
     "openai pricing"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/codergautam/openai-cost-calculator/issues"
+  },
+  "homepage": "https://github.com/codergautam/openai-cost-calculator#readme"
 }
