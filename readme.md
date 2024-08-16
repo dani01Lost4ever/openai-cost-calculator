@@ -7,12 +7,12 @@
 
 **Using npm:**
 ```
-npm install openai-cost-calculator
+npm install openai-cost-calculator-updated
 ```
 
 **Using yarn:**
 ```
-yarn add openai-cost-calculator
+yarn add openai-cost-calculator-updated
 ```
 
 ## Importing
