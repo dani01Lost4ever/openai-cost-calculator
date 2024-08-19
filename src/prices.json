@@ -123,7 +123,7 @@
     }
   },
   "ImageModels": {
-    "DALL-E 3":{
+    "dall-e 3":{
       "Quality": {
         "Standard": {
           "Resolution": {
@@ -141,7 +141,7 @@
         }
       }
     },
-    "DALL-E 2": {
+    "dall-e 2": {
       "Quality": {
         "Standard": {
             "Resolution": {
@@ -154,13 +154,13 @@
     }
   },
   "AudioModels": {
-    "Whisper": {
+    "whisper": {
       "Usage": 0.000006
     },
-    "TTS": {
+    "tts": {
       "Usage": 0.015000
     },
-    "TTS HD": {
+    "tts hd": {
       "Usage": 0.030000
     }
   }
