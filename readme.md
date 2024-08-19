@@ -19,12 +19,12 @@ yarn add openai-token-cost-calculator-updated
 
 **CommonJS:**
 ```javascript
-const costCalculator = require('openai-cost-calculator');
+const costCalculator = require('openai-token-cost-calculator-updated');
 ```
 
 **ES6:**
 ```javascript
-import * as costCalculator from 'openai-cost-calculator';
+import * as costCalculator from 'openai-token-cost-calculator-updated';
 ```
 
 ## Functions
@@ -60,7 +60,7 @@ npm install openai-gpt-token-counter
 ```javascript
 // Importing the required modules
 const tokenCounter = require('openai-gpt-token-counter');
-const costCalculator = require('openai-cost-calculator');
+const costCalculator = require('openai-token-cost-calculator-updated');
 
 const messages = [
   { role: "user", content: "This is a test prompt to test out the cost calculation functionality of openai-cost-calculator" },
