@@ -61,8 +61,8 @@ const calculateEmbeddingModelCost = (modelName, tokens) => {
 }
 
 
-const calculateImageModelCost = (resolution, images) => {
-    let pricePerImage = prices.ImageModels["Resolution"][resolution];
+const calculateImageModelCost = (modelName, quality, resolution, images) => {
+    let pricePerImage = prices.ImageModels[modelName]["Quality"][quality]["Resolution"][resolution];
     const totalCost = pricePerImage * images;
     return {
         totalCost,
