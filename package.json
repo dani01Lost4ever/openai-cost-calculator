@@ -1,6 +1,6 @@
 {
   "name": "openai-token-cost-calculator-updated",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Easily calculate the cost of your OpenAI Usage",
   "main": "src/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codergautam/openai-cost-calculator.git"
+    "url": "git+https://github.com/dani01Lost4ever/openai-cost-calculator-updated.git"
   },
   "keywords": [
     "openai",
@@ -36,7 +36,7 @@
     "openai pricing"
   ],
   "bugs": {
-    "url": "https://github.com/codergautam/openai-cost-calculator/issues"
+    "url": "https://github.com/dani01Lost4ever/openai-cost-calculator-updated/issues"
   },
-  "homepage": "https://github.com/codergautam/openai-cost-calculator#readme"
+  "homepage": "https://github.com/dani01Lost4ever/openai-cost-calculator-updated#readme"
 }

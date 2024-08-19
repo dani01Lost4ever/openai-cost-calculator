@@ -1,7 +1,7 @@
 # openai-token-cost-calculator-updated
 ## Forked from  [openai-cost-calculator](https://github.com/codergautam/openai-cost-calculator)
 
-`openai-cost-calculator` is a reliable npm module that provides cost calculations for various AI models offered by OpenAI. Pricing is maintained regularly to stay on top of OpenAI's pricing changes. Whether you need to calculate costs for OpenAI Language Models, Fine Tuning Models, Embedding Models, Image Models, or Audio Models, this module has got you covered.
+`openai-token-cost-calculator-updated` is a reliable npm module that provides cost calculations for various AI models offered by OpenAI. Pricing is maintained regularly to stay on top of OpenAI's pricing changes. Whether you need to calculate costs for OpenAI Language Models, Fine Tuning Models, Embedding Models, Image Models, or Audio Models, this module has got you covered.
 
 ## Installation
 
@@ -51,7 +51,7 @@ console.log(cost);
 
 You can combine the `openai-gpt-token-counter` module with this one to estimate the cost of processing text using a specific OpenAI model.
 
-Before we begin, make sure that you have `openai-gpt-token-counter` installed. If not, you can install it using npm:
+Before we begin, make sure that you have `openai-token-cost-calculator-updated` installed. If not, you can install it using npm:
 ```shell
 npm install openai-gpt-token-counter
 ```
@@ -162,12 +162,14 @@ console.log(cost);
 
 This library supports a wide range of models:
 
-- **Language Models**: gpt-4, gpt-4-0314, gpt-4-0613, gpt-3.5-turbo, etc. (all models)
-- **Fine Tuning Models**: ada, babbage, curie, davinci
-- **Embedding Models**: ada
-- **Image Models**: Resolution(1024x1024, 512x512, 256x256)
-- **Audio Models**: whisper-1
+- **Language Models**: gpt-4o-mini-2024-07-18, gpt-4o-mini, gpt-4o-2024-05-13, gpt-4o-2024-08-06, gpt-4o, chatgpt-4o-latest, gpt-4-turbo,
+  gpt-4-turbo-2024-04-09, gpt-4, gpt-4-32k, gpt-4-0125-preview, gpt-4-1106-preview, gpt-4-vision-preview, gpt-3.5-turbo-0125, gpt-3.
+  5-turbo-instruct, gpt-3.5-turbo-1106, gpt-3.5-turbo-0613, gpt-3.5-turbo-16k-0613, gpt-3.5-turbo-0301, davinci-002, babbage-002
+- **Fine Tuning Models**: gpt-4o-mini-2024-07-18, gpt-3.5-turbo, davinci-002, babbage-002
+- **Embedding Models**: ada v2, text-embedding-3-large, text-embedding-3-small
+- **Image Models**: Resolution(1024x1024, 512x512, 256x256) (WIP)
+- **Audio Models**: Whisper, TTS, TTS HD
 
 ## Contributions
 
-Contributions to improve `openai-cost-calculator` are more than welcome. Feel free to submit a pull request or report an issue on our [GitHub repository](https://github.com/codergautam/openai-cost-calculator).
+Contributions to improve `openai-token-cost-calculator-updated` are more than welcome. Feel free to submit a pull request or report an issue on our [GitHub repository](https://github.com/dani01Lost4ever/openai-cost-calculator-updated).
