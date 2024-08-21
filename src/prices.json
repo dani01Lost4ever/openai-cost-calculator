@@ -90,6 +90,11 @@
     }
   },
   "FineTuningModels": {
+    "gpt-4o-2024-08-06": {
+        "Training": 0.025000,
+        "Input": 0.003750,
+        "Output": 0.015000
+    },
     "gpt-4o-mini-2024-07-18": {
       "Training": 0.00030,
       "Input": 0.00030,
